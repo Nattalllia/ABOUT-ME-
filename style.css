@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://pr6.zoon.ru/_lSWCpry_ov-dCWgGxPp7w/1125x1500,q85/J6muMKgxpCyaYePLj1VQ5pnOfm0DiXg7JOVHpTQel_HSkqB6I7d2ogehc5OAVHLkx8ykbBEyJoalUqUltEGmSW0B_2udT9U31A0_eL18YtlIdTw4n4Hdc55IC_nK8iPz-bK-ZvYDIzW514DQhdamVw");
+    background-size: cover;
+}
+
+div {
+    text-align: center;
+}
+
+.border a {
+    border: 2px solid blue;
+    padding: 3px 3px 3px;
+    margin-bottom: 1px;
+    background-color: hwb(193 62% 7%);
+    border-radius: 10px;
+    --width: 200px;
+    --height: calc(var(--width) / 4);
+    position: relative;
+    display: inline-block;
+    width: var(--width);
+    height: var(--height);
+}
+
+p {
+    padding: 10px 30px 30px;
+    margin-bottom: 20px;
+    background-color: hwb(193 62% 7%);
+    border-radius: 10px;
+    border: 2px solid blue;
+    font-weight: 500;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    color: hwb(254 19% 7%);
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 28px;
+    color: hwb(243 17% 11%);
+    font-style: oblique;
+}
+
+a {
+    padding: 100px 100px 100px;
+}
